@@ -1,3 +1,4 @@
+de_mirage
 cs_rio
 cs_assault
 cs_estate
