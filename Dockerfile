@@ -5,9 +5,9 @@ ARG amxmod_version=1.8.2
 
 ENV CSTRIKE "${HOMEDIR}/cstrike"
 ENV PORT 27015
-ENV MAP de_dust2
-ENV MAXPLAYERS 16
-ENV SV_LAN 0
+ENV MAP de_mirage
+ENV MAXPLAYERS 32
+ENV SV_LAN 1
 
 RUN ./steamcmd.sh +login anonymous +force_install_dir ../cstrike +app_update 90 validate +quit || :
 RUN ./steamcmd.sh +login anonymous +force_install_dir ../cstrike +app_update 70 validate +quit || :
